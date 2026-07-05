@@ -1,82 +1,104 @@
-📋 Task Manager
+# 🚀 CODEVEDX
 
-A modern and responsive Task Manager web application built using HTML, CSS, and JavaScript. This application helps users efficiently manage daily tasks with features like task creation, editing, deletion, completion tracking, search, filtering, dark mode, and persistent storage using Local Storage.
+Welcome to **CODEVEDX**, my internship project repository.
 
----
-
-🚀 Features
-
-* ➕ Add new tasks
-* ✏️ Edit existing tasks
-* 🗑️ Delete tasks
-* ✅ Mark tasks as completed
-* 🔍 Search tasks instantly
-* 📂 Filter tasks (All / Completed / Pending)
-* 🌙 Dark Mode support
-* 💾 Local Storage integration
-* 📱 Fully Responsive Design
-* 📊 Task Statistics Dashboard
+This repository contains all the projects I have developed during my internship. Each project is organized in its own folder with its own source code, documentation, and screenshots.
 
 ---
 
-🛠️ Technologies Used
+## 📂 Projects
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
-* Local Storage API
+### 1. 📝 Task Manager
 
----
+A responsive task management application built using HTML, CSS, and JavaScript.
 
-📸 Project Preview
+**Features:**
+- ✅ Add Tasks
+- ✅ Edit Tasks
+- ✅ Delete Tasks
+- ✅ Mark Tasks as Completed
+- ✅ Local Storage Support
+- ✅ Responsive Design
 
-Task Manager interface with:
-
-* Task Statistics
-* Search Functionality
-* Filter Buttons
-* Dark Mode
-* Local Storage Support
+📁 Folder: `Task-Manager`
 
 ---
 
-📂 Project Structure
+### 2. 🌤 Weather App
 
+A responsive Weather Application built using HTML, CSS, and JavaScript that fetches real-time weather data from the OpenWeatherMap API.
 
-Task Manager/
+**Features:**
+- 🔍 Search Weather by City
+- 📍 Current Location Weather
+- 📅 5-Day Weather Forecast
+- 🌙 Dark Mode
+- 🌡 Temperature Details
+- 💧 Humidity
+- 🌬 Wind Speed
+- 🧭 Pressure
+- 👁 Visibility
+- 🌅 Sunrise & Sunset
+- ⏳ Loading Indicator
+- ❌ Error Handling
+- 📱 Responsive Design
+
+📁 Folder: `Weather-App`
+
+---
+
+## 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- OpenWeatherMap API
+- Local Storage
+- Geolocation API
+- Git & GitHub
+
+---
+
+## 📌 Repository Structure
+
+```text
+CODEVEDX/
 │
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+├── README.md
+│
+├── Task-Manager/
+    ├── images/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   ├── README.md
+    
+│
+├── Weather-App/
+│   ├── images/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── README.md
+│
+└── More projects coming soon...
+```
 
 ---
 
-▶️ How to Run
+## 🎯 Internship Goal
 
-1. Download or clone the repository.
-2. Open the project folder.
-3. Run `index.html` in your browser.
-4. Start managing your tasks.
+This repository showcases my learning journey throughout my internship. I will continue adding more web development projects while improving my HTML, CSS, JavaScript, Git, and GitHub skills.
 
 ---
 
-🎯 Learning Outcomes
+## 👨‍💻 Author
 
-Through this project, I learned:
+**Jagriti Rai**
 
-* DOM Manipulation
-* Event Handling
-* Local Storage (JSON)
-* Responsive Web Design
-* JavaScript Functions
-* CRUD Operations
+BCA Student | Frontend Web Developer
 
 ---
 
-👩‍💻 Author
-
-Jagriti Rai
-
-Frontend Development Internship Project
-
+⭐ Thank you for visiting my repository!
+More exciting projects will be added soon.
