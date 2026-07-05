@@ -101,4 +101,5 @@ BCA Student | Frontend Web Developer
 ---
 
 ⭐ Thank you for visiting my repository!
+    Repository maintained by Jagriti Rai.
 More exciting projects will be added soon.
