@@ -8,6 +8,7 @@ import ProductDetails from "./pages/ProductDetails";
 
 function App() {
   const [cartCount, setCartCount] = useState(0);
+const [searchTerm, setSearchTerm] = useState("");
   const addToCart = () => {
   setCartCount(cartCount + 1);
 };
@@ -25,9 +26,21 @@ return (
         <h1>E-Commerce Product Page</h1>
 
         <p>Built with React, CSS and JavaScript</p>
+        <input
+            type="text"
+            placeholder="Search products..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="search-box"
+          />
 
         <div className="products">
-          {products.map((product) => (
+          {products
+          .filter((product) =>
+           product.name.toLowerCase().includes(searchTerm.toLowerCase())
+         )
+         .map((product) => (
+
             <ProductCard
               key={product.id}
               id={product.id}
@@ -38,6 +51,7 @@ return (
               addToCart={addToCart}
             />
           ))}
+
         </div>
       </div>
     }
