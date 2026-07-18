@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Navbar(props) {
   return (
     <nav className="navbar">
@@ -10,9 +12,11 @@ function Navbar(props) {
         <li>Contact</li>
       </ul>
 
-      <button className="cart-btn">
-       🛒 Cart ({props.cartCount})
-      </button>
+      <Link to="/cart">
+        <button className="cart-btn">
+          🛒 Cart ({props.cartCount})
+        </button>
+      </Link>
     </nav>
   );
 }

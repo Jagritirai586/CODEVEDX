@@ -1,3 +1,4 @@
+import Cart from "./pages/Cart";
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
@@ -7,18 +8,19 @@ import products from "./data/products";
 import ProductDetails from "./pages/ProductDetails";
 
 function App() {
-  const [cartCount, setCartCount] = useState(0);
+  const [cart, setCart] = useState([]);
 const [searchTerm, setSearchTerm] = useState("");
 const [category, setCategory] = useState("All");
 
-  const addToCart = () => {
-  setCartCount(cartCount + 1);
+ const addToCart = (product) => {
+ console.log("Added:", product);
+  setCart([...cart, product]);
 };
  
 
 return (
   <>
-    <Navbar cartCount={cartCount} />
+    <Navbar cartCount={cart.length} />
 
     <Routes>
   <Route
@@ -70,7 +72,7 @@ return (
               price={product.price}
               rating={product.rating}
               image={product.image}
-              addToCart={addToCart}
+              addToCart={() => addToCart(product)}
             />
           ))}
 
@@ -80,6 +82,7 @@ return (
   />
 
   <Route path="/product/:id" element={<ProductDetails />} />
+  <Route path="/cart" element={<Cart cart={cart} />} />
 </Routes>
   </>
 );
