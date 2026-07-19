@@ -95,17 +95,41 @@ Latest Tech Products at Amazing Prices.
              Accessories
           </button>
         </div>
+        
+<div className="discount-banner">
 
+LIMITED TIME OFFER - SAVE UP TO 50% TODAY!
+
+</div>
 
 <h2>Today's Special Offers</h2>
 
-<p>🔥 Flat 20% OFF on Electronics</p>
+<div className="offers-container">
 
-<p>🚚 Free Shipping Available</p>
+  <div className="offer-card">
+    <h3>🔥 20% OFF</h3>
+    <p>On Electronics</p>
+  </div>
 
-<p>💳 Secure Payments</p>
+  <div className="offer-card">
+    <h3>🚚 Free Delivery</h3>
+    <p>On Orders Above ₹999</p>
+  </div>
 
-<h1>🔥 Trending Products</h1>
+  <div className="offer-card">
+    <h3>💳 Secure Payments</h3>
+    <p>100% Safe Checkout</p>
+  </div>
+
+</div>
+
+<div className="trending-heading">
+
+<h2>🔥 Trending Products</h2>
+
+<p>Our Most Loved Tech Gadgets</p>
+
+</div>
 
         <div className="products" id="products">
           {products

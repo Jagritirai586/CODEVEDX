@@ -507,3 +507,84 @@ background:#ff8800;
   transform: translateY(-8px);
   box-shadow: 0 10px 20px lightgray;
 }
+
+/* Today's Special Offers */
+
+.offers-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.offer-card {
+  background-color: white;
+  width: 250px;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.offer-card h3 {
+  color: #ff8800;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.offer-card p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Trending Products Heading */
+
+.trending-heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.trending-heading h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.trending-heading p {
+  font-size: 20px;
+  color: gray;
+}
+
+.trending-heading{
+text-align:center;
+margin-bottom:30px;
+}
+
+.trending-heading h2{
+font-size:55px;
+margin-bottom:10px;
+}
+
+.trending-heading p{
+font-size:22px;
+color:gray;
+}
+
+.discount-banner{
+background:linear-gradient(to right,#ff8800,#ffbb00);
+color:white;
+padding:18px;
+font-size:24px;
+font-weight:bold;
+border-radius:15px;
+text-align:center;
+margin:40px auto;
+width:80%;
+}
