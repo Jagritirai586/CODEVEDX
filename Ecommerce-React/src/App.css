@@ -435,3 +435,75 @@ transition:0.3s;
 transform:scale(1.1);
 background:#ff8800;
 }
+
+.product-card {
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  transition: all 0.3s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+.shop-now-btn {
+  transition: all 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  transform: scale(1.1);
+  background-color: #ff8800;
+}
+
+.product-card button {
+  transition: all 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: orange;
+  transform: scale(1.05);
+}
+
+.category-buttons button {
+  transition: all 0.3s ease;
+}
+
+.category-buttons button:hover {
+  background-color: orange;
+  transform: translateY(-3px);
+}
+
+.search-box {
+  transition: all 0.3s ease;
+}
+
+.search-box:focus {
+  outline: none;
+  box-shadow: 0 0 15px lightblue;
+  transform: scale(1.02);
+}
+
+.cart-btn {
+  transition: all 0.3s ease;
+}
+
+.cart-btn:hover {
+  background-color: #ff8800;
+  transform: scale(1.05);
+}
+
+.offer-box div {
+  transition: all 0.3s ease;
+}
+
+.offer-box div:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px lightgray;
+}
