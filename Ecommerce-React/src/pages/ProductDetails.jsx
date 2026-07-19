@@ -22,11 +22,15 @@ function ProductDetails() {
         width="300"
       />
 
-      <h3>Price: {product.price}</h3>
+     <h3>Price: {product.price}</h3>
 
-      <p>Rating: {product.rating}</p>
+<p>Rating: {product.rating}</p>
 
-      <button>Add to Cart</button>
+<p><strong>Description:</strong></p>
+
+<p>{product.description}</p>
+
+<button>Add to Cart</button>
     </div>
   );
 }

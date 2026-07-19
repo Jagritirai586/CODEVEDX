@@ -12,13 +12,19 @@ function ProductCard(props) {
   <h2>{props.name}</h2>
 </Link>
 
-      <p className="price">{props.price}</p>
+{props.bestSeller && <p>🔥 Best Seller</p>}
 
-      <p>{props.rating}</p>
+<p className="price">{props.price}</p>
 
-      <button onClick={props.addToCart}>
-        Add to Cart
-      </button>
+<p>{props.rating}</p>
+
+<p>🚚 Free Delivery Available</p>
+
+<p>🔥 20% OFF Today</p>
+
+<button onClick={props.addToCart}>
+  Add to Cart
+</button>
     </div>
   );
 }
