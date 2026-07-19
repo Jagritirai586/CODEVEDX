@@ -42,6 +42,10 @@ Your One-Stop Tech Shopping Destination
 Premium Gadgets • Best Deals • Fast Delivery
 </p>
 
+<p className="hero-offer">
+🔥 Flat 50% OFF on Selected Products
+</p>
+
 <button
   className="shop-now-btn"
   onClick={() =>
@@ -52,6 +56,15 @@ Premium Gadgets • Best Deals • Fast Delivery
 >
   Shop Now
 </button>
+
+<div className="trust-badges">
+
+<p>✔ Secure Payments</p>
+<p>✔ Fast Delivery</p>
+<p>✔ Easy Returns</p>
+<p>✔ Genuine Products</p>
+
+</div>
 
 </div>      
 
@@ -95,10 +108,29 @@ Latest Tech Products at Amazing Prices.
              Accessories
           </button>
         </div>
-        
+
 <div className="discount-banner">
 
 LIMITED TIME OFFER - SAVE UP TO 50% TODAY!
+
+</div>
+
+<div className="hero-stats">
+
+<div>
+<h2>10K+</h2>
+<p>Happy Customers</p>
+</div>
+
+<div>
+<h2>500+</h2>
+<p>Tech Products</p>
+</div>
+
+<div>
+<h2>24/7</h2>
+<p>Customer Support</p>
+</div>
 
 </div>
 

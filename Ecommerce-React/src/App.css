@@ -400,7 +400,15 @@ font-size:35px;
 }
 
 .hero-section{
-background: linear-gradient(135deg,#2c3e50,#4ca1af);
+.hero-section {
+    background-image:
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 color:white;
 padding:80px 20px;
 text-align:center;
@@ -453,15 +461,23 @@ background:#ff8800;
   transform: scale(1.05);
 }
 
-.shop-now-btn {
-  transition: all 0.3s ease;
+.shop-now-btn{
+padding:18px 40px;
+font-size:28px;
+font-weight:bold;
+border:none;
+border-radius:50px;
+background:#ff9800;
+color:white;
+cursor:pointer;
+transition:0.3s ease;
+box-shadow:0 8px 25px rgba(255,152,0,0.5);
 }
 
-.shop-now-btn:hover {
-  transform: scale(1.1);
-  background-color: #ff8800;
+.shop-now-btn:hover{
+transform:scale(1.1);
+background:#ff8800;
 }
-
 .product-card button {
   transition: all 0.3s ease;
 }
@@ -587,4 +603,40 @@ border-radius:15px;
 text-align:center;
 margin:40px auto;
 width:80%;
+}
+
+.hero-stats{
+display:flex;
+justify-content:center;
+gap:60px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.hero-stats h2{
+color:orange;
+font-size:40px;
+margin-bottom:5px;
+}
+
+.hero-stats p{
+color:white;
+font-size:18px;
+}
+
+.trust-badges{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+color:white;
+font-size:18px;
+flex-wrap:wrap;
+}
+
+.hero-offer{
+color: #FFD700;
+font-size: 28px;
+font-weight: bold;
+margin-top:20px;
 }
