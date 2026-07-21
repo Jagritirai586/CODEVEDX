@@ -1,16 +1,149 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ShopEase - Ecommerce React Project
 
-Currently, two official plugins are available:
+A modern and responsive Ecommerce Product Page built using React and CSS. This project allows users to browse products, search items, filter by category, view product details, and add products to the cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Attractive Hero Section
+- Responsive Navigation Bar
+- Product Listing with Cards
+- Product Search Functionality
+- Category Filtering
+- Product Details Page
+- Add to Cart Functionality
+- Cart Item Counter
+- Trending Products Section
+- Special Offers Section
+- Best Seller Tags
+- Modern and Responsive UI Design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React JS
+- React Router DOM
+- CSS3
+- JavaScript (ES6)
+- Vite
+
+---
+
+## Folder Structure
+
+```
+src/
+│
+├── assets/
+│   └── hero-bg.jpg
+│
+├── components/
+│   ├── Navbar.jsx
+│   └── ProductCard.jsx
+│
+├── data/
+│   └── products.js
+│
+├── pages/
+│   ├── Cart.jsx
+│   └── ProductDetails.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+---
+
+## Screenshots
+
+### Home Page
+
+![Home Page](src/assets/hero-bg.jpg.jpg)
+---
+
+### Hero Section
+
+![Hero Section](src/assets/hero-section.png)
+---
+
+### Product Section
+
+![Products](src/assets/products.png)
+
+---
+
+### Product Details Page
+
+![Product Details](src/assets/product-details.png)
+
+---
+
+### Shopping Cart
+
+![Cart](src/assets/cart.png)
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <your-repository-link>
+```
+
+Move into the project folder:
+
+```bash
+cd Ecommerce-React
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+---
+
+## Learning Outcomes
+
+Through this project, I learned:
+
+- React Components
+- React Router DOM
+- State Management using useState
+- Props Handling
+- Conditional Rendering
+- Search and Filter Functionality
+- Responsive UI Design
+- Project Structuring in React
+- Git and GitHub Workflow
+
+---
+
+## Future Improvements
+
+- Dark Mode
+- Wishlist Feature
+- User Authentication
+- Checkout Page
+- Payment Gateway Integration
+- Backend Integration using APIs
+
+---
+
+## Author
+
+Jagriti Rai
