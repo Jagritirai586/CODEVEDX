@@ -24,6 +24,15 @@ A responsive task management application built using HTML, CSS, and JavaScript.
 
 ---
 
+### 🛠 Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* Local Storage API
+
+---
+
 ### 2. 🌤 Weather App
 
 A responsive Weather Application built using HTML, CSS, and JavaScript that fetches real-time weather data from the OpenWeatherMap API.
@@ -59,6 +68,39 @@ A responsive Weather Application built using HTML, CSS, and JavaScript that fetc
 
 ---
 
+### 3.🛒ShopEase - Ecommerce React Project
+
+A modern and responsive Ecommerce Product Page built using React and CSS. This project allows users to browse products, search items, filter by category, view product details, and add products to the cart.
+
+---
+
+## Features
+
+- Attractive Hero Section
+- Responsive Navigation Bar
+- Product Listing with Cards
+- Product Search Functionality
+- Category Filtering
+- Product Details Page
+- Add to Cart Functionality
+- Cart Item Counter
+- Trending Products Section
+- Special Offers Section
+- Best Seller Tags
+- Modern and Responsive UI Design
+
+---
+
+## Tech Stack
+
+- React JS
+- React Router DOM
+- CSS3
+- JavaScript (ES6)
+- Vite
+
+---
+
 ## 📌 Repository Structure
 
 ```text
@@ -81,14 +123,34 @@ CODEVEDX/
 │   ├── script.js
 │   └── README.md
 │
-└── More projects coming soon...
+└── Ecommerce-React
+``` src/
+       ├── assets/
+│   └── hero-bg.jpg
+│
+├── components/
+│   ├── Navbar.jsx
+│   └── ProductCard.jsx
+│
+├── data/
+│   └── products.js
+│
+├── pages/
+│   ├── Cart.jsx
+│   └── ProductDetails.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
 ```
 
 ---
 
+
 ## 🎯 Internship Goal
 
-This repository showcases my learning journey throughout my internship. I will continue adding more web development projects while improving my HTML, CSS, JavaScript, Git, and GitHub skills.
+This repository showcases my learning journey throughout my internship. I will continue adding more web development projects while improving my HTML, CSS, JavaScript,React, Git, and GitHub skills.
 
 ---
 

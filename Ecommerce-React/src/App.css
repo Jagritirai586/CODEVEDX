@@ -399,32 +399,34 @@ font-size:35px;
 
 }
 
-.hero-section{
 .hero-section {
-    background-image:
-      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-      url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600");
+  background-image:
+    linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+   url(assets/hero-bg.jpg.jpg);
 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-color:white;
-padding:80px 20px;
-text-align:center;
-border-radius:25px;
-margin:30px;
-box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 30px;
 }
 
 .hero-section h1{
-font-size:65px;
-margin-bottom:20px;
+    font-size: 5rem;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 15px black;
 }
 
 .hero-section p{
-font-size:22px;
-margin-bottom:15px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .shop-now-btn{
@@ -461,23 +463,23 @@ background:#ff8800;
   transform: scale(1.05);
 }
 
-.shop-now-btn{
-padding:18px 40px;
-font-size:28px;
-font-weight:bold;
-border:none;
-border-radius:50px;
-background:#ff9800;
-color:white;
-cursor:pointer;
-transition:0.3s ease;
-box-shadow:0 8px 25px rgba(255,152,0,0.5);
+.shop-now-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 20px 50px;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
-.shop-now-btn:hover{
-transform:scale(1.1);
-background:#ff8800;
+.shop-now-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 25px orange;
 }
+
 .product-card button {
   transition: all 0.3s ease;
 }
@@ -553,6 +555,13 @@ background:#ff8800;
   color: #ff8800;
   margin-bottom: 10px;
   font-size: 24px;
+}
+
+.offer-text{
+    color: #FFD700;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px black;
 }
 
 .offer-card p {
@@ -639,4 +648,46 @@ color: #FFD700;
 font-size: 28px;
 font-weight: bold;
 margin-top:20px;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.trust-badges {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.trust-badges p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: rgba(255,255,255,0.15);
+  padding: 12px 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    color: white;
+    line-height: 1.2;
+}
+
+.hero-section p {
+    font-size: 1.8rem;
+}
+
+.offer-text {
+    font-size: 2rem;
+}
+
+.shop-now-btn{
+    margin-top: 20px;
 }
